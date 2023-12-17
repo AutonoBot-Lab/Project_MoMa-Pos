@@ -1,3 +1,3 @@
-arm_range.py，输入各个joint的具体范围，以及对应link的长度基于UR5E来构建DH矩阵，计算出最大的可及范围而公式中限定的每个joint的活动范围就体现在这个当中
+arm_range.py，输入各个joint的具体范围，以及对应link的长度基于UR5E来构建DH矩阵，计算出最大的可及范围而公式中限定的每个joint的活动范围就体现在这个当中  
 zhou.py 中的l0就是范围A的半径，输出specific就是B的半径范围
 
