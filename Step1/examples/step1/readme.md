@@ -1,1 +1,3 @@
-
+# Step1介绍
+## Load_random_Environment.py
+load_random_Environment.py是根据仿真环境得到的物品的参数结果要得到两个结果分别是：object_details 和object_stacking object_details用于后续的Environment_random.py构建Nodeobject_stacking用于后续Environment_random.py构建Edge
