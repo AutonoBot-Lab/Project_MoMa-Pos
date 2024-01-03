@@ -6,3 +6,11 @@ object_details用于后续的Environment_random.py构建Nodeobject_stacking用�
 Environment_random.py函数输入load_random_Environment.py的两个参数object_details和object_stacking
 依赖于同文件下utils_NodeBuilder.py,utils_EdgeBuilder.py和utils_GraphBuilder.py构建图，而后把图输入node2vec中预测相似值
 由于node2vec的随机性，因此执行100次，最后取得每个Node的平均相似性
+## utils_NodeBuilder.py
+输入object_details,构建Node
+## utils_EdgeBuilder.py
+输入object_stacking,并且在这个部分定义权重因素，把边的信息归一化，权重化,输出edges
+## utils_GraphBuilder.py
+输入nodes和edges，输出有向图G
+## utils_SortSimilarity.py
+进行相似度的余弦排序
