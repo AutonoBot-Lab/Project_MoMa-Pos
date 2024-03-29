@@ -58,7 +58,7 @@ class PbOMPL:
         self.arm_id = arm_id
         self.arm = pb_ompl.PbOMPLRobot(arm_id, joint_idx=joint_idx)
         self.tcp_link = tcp_link
-        self.max_attempts = 500
+        self.max_attempts = 1
         self.threshold = threshold
 
         # obstacles for planning
@@ -71,16 +71,16 @@ class PbOMPL:
         # output OMPL settings
         item_info = p.getBodyInfo(self.arm_id)
         robot_name = item_info[1].decode("utf-8")
-        print("--------------------")
-        print(
-            f"OMPL Configuration\n"
-            f"Robot ID: {arm_id}\n"
-            f"Robot Name: {robot_name}\n"
-            f"Obstacles: {obstacles}\n"
-            f"Planner: {planner}\n"
-            f"Threshold: {threshold}"
-        )
-        print("--------------------")
+        # print("--------------------")
+        # print(
+        #     f"OMPL Configuration\n"
+        #     f"Robot ID: {arm_id}\n"
+        #     f"Robot Name: {robot_name}\n"
+        #     f"Obstacles: {obstacles}\n"
+        #     f"Planner: {planner}\n"
+        #     f"Threshold: {threshold}"
+        # )
+        # print("--------------------")
 
     def set_planner(self, planner):
         """
@@ -104,7 +104,8 @@ class PbOMPL:
         try:
             item_info = p.getBodyInfo(target_id)
         except Exception as e:
-            print(f"Error setting target: {e}")
+            print("-")
+            # print(f"Error setting target: {e}")
         self.target = target_id
         self.target_pos, _ = p.getBasePositionAndOrientation(self.target)
         # consider the object's height
@@ -116,6 +117,8 @@ class PbOMPL:
         )
         # print("debug! target position:{}".format(self.target_pos))
 
+    def set_Reuleaux_target(self, target_pos):
+        self.target_pos = target_pos
     def set_target_pos(self, target_pos):
         """
         Set the position of the target.
@@ -184,7 +187,7 @@ class PbOMPL:
             for obstacle_id in self.obstacles:
                 item_info = p.getBodyInfo(obstacle_id)
                 item_name = item_info[1].decode("utf-8")
-                print(f"\t Obstacle Name: {item_name}, ID: {obstacle_id}")
+                # print(f"\t Obstacle Name: {item_name}, ID: {obstacle_id}")
 
     def get_scene_items(self, display=True):
         """
@@ -235,7 +238,7 @@ class PbOMPL:
             if display:
                 item_info = p.getBodyInfo(item_id)
                 item_name = item_info[1].decode("utf-8")
-                print(f"Item Name: {item_name}, ID: {item_id}")
+                # print(f"Item Name: {item_name}, ID: {item_id}")
 
         self.store_obstacles()
         return self.obstacles
@@ -325,6 +328,7 @@ class PbOMPL:
         attempts = 0
         while attempts < self.max_attempts:
             attempts += 1
+
             res, path = self.plan_grasp(start, goal)
 
             # Execute the path and attach the object to the robot

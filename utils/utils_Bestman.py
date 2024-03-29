@@ -26,8 +26,8 @@ utils_path = os.path.dirname(current_path)
 if os.path.basename(utils_path) != "utils":
     raise ValueError('Not add the path of folder "utils", please check again!')
 sys.path.append(utils_path)
-from utils_PbVisualizer import PbVisualizer
-from utils_PbClient import PbClient
+from utils_PbVisualizer_moma_pos1 import PbVisualizer
+from utils_PbClient_moma_pos1 import PbClient
 from utils_PIDController import PIDController
 
 """
@@ -100,7 +100,7 @@ class Bestman:
 
         self.pb_client = pb_client
         self.client_id = self.pb_client.get_client()
-        self.frequency = 240
+        self.frequency = 240/2
         self.timeout = 100.0
         self.max_force = 500
         self.max_iterations = 10000
@@ -224,7 +224,7 @@ class Bestman:
                 Pose([waypoint[0], waypoint[1], 0], goal_base_pose.orientation)
             )  # move to each waypoint
         self.rotate_base(goal_base_pose.yaw)
-        print("-" * 20 + "\n" + "Navigation is done!")
+        # print("-" * 20 + "\n" + "Navigation is done!")
 
     def get_base_pose(self):
         """

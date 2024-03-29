@@ -25,8 +25,8 @@ utils_path = os.path.dirname(current_path)
 if os.path.basename(utils_path) != 'utils':
     raise ValueError('Not add the path of folder "utils", please check again!')
 sys.path.append(utils_path)
-from utils_PbVisualizer import PbVisualizer
-from utils_PbClient import PbClient
+from utils_PbVisualizer_moma_pos1 import PbVisualizer
+from utils_PbClient_moma_pos1 import PbClient
 from utils_PIDController import PIDController
 
 """
@@ -84,7 +84,7 @@ class Kitchen:
                 self.elementA_drawer_to_joint_id
             )
         )
-
+        self.open_it("elementA", 5)
         # ----------------------------------------------------------------
         # This is Element B, where there are a sink, and a few container
         # ----------------------------------------------------------------
@@ -185,7 +185,15 @@ class Kitchen:
                 self.elementE_drawer_to_joint_id
             )
         )
-
+        self.elementF_id = self.pb_client.load_object(
+            model_path="./URDF_models/utensil_bowl_blue/model.urdf",
+            object_position=[3.6, 2.4, 0.9],
+            object_orientation=[0.0, 0.0, 0.0],
+            scale=1.0,
+            obj_name="bowl",
+            fixed_base=False
+        )
+        self.object_ids.append("elementF_id")
         # ----------------------------------------------------------------
         # Set element A B C D E colors
         # ----------------------------------------------------------------
