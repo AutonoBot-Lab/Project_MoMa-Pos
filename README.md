@@ -1,7 +1,9 @@
 # MoMa-Pos -  A strategy for deciding positioning before executing actions
 
-Welcome to the official repository for MoMa-Pos
-The paper can be accessed [paper](https://arxiv.org/abs/2403.19940).
+Welcome to the official repository for MoMa-Pos  
+
+The paper can be accessed [paper](https://arxiv.org/abs/2403.19940).  
+
 The Website can be accessed [Website](https://yding25.com/MoMa-Pos/).
 ##  Installation
 ```
