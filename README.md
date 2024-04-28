@@ -1,4 +1,4 @@
-<img src="image/logo.jpg" width="300">
+<img src="image/logo.jpg" width="500">
 
 ## MoMa-Pos: Where Should Mobile Manipulators Stand in Cluttered Environment Before Task Execution?
 
