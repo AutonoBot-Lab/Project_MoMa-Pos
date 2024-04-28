@@ -1,24 +1,30 @@
-# MoMa-Pos -  A strategy for deciding positioning before executing actions
+<img src="image/logo.jpg" width="300">
 
-Welcome to the official repository for MoMa-Pos  
+## MoMa-Pos: Where Should Mobile Manipulators Stand in Cluttered Environment Before Task Execution?
 
-The paper can be accessed [paper](https://arxiv.org/abs/2403.19940).  
+Welcome to the official repository for MoMa-Pos. 
 
-The Website can be accessed [Website](https://yding25.com/MoMa-Pos/).
-##  Installation
+You can access the paper [here](https://arxiv.org/abs/2403.19940),  and the project website [here](https://yding25.com/MoMa-Pos/).
+
+###  Installation
+
+Clone the repository and initialize submodules:
+
 ```
 git clone https://github.com/AutonoBot-Lab/Project_MoMa-Pos.git
 git submodule init
 git submodule update
 ```
+Install the OMPL package:
 
-[Install OMPL package](https://github.com/ompl/ompl/releases/tag/prerelease)
+[Download the latest OMPL release.](https://github.com/ompl/ompl/releases/tag/prerelease)
+
 ```
 pip3 install pygccxml==2.2.1.
 cd BestMan_Pybullet/package_OMPL
 pip3 install ompl-1.6.0-cp38-cp38-manylinux_2_28_x86_64.whl
 ```
-## Main Project Structure
+### Main Project Structure
 ```
 ├── Kitchen_models
 ├── MoMa_Pos
@@ -37,6 +43,8 @@ pip3 install ompl-1.6.0-cp38-cp38-manylinux_2_28_x86_64.whl
 ```
 
 ## Basic Demos
+
+Run a basic demo:
 ```
 python3 ./MoMa_Pos/MoMa_main.py
 ```
