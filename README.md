@@ -65,7 +65,8 @@ Then you can see Bowl in different shelves of the fridge:
 <div style="display: flex; justify-content: center;">  
   <img src="image/Fridge_sample.png" style="width: 400px; margin: 0 10px;" alt="Fridge Sample">  
   <img src="image/Fridge_sample2.png" style="width: 400px; margin: 0 10px;" alt="Drawer Sample">  
-</div>  
+</div>    
+
 Bowl in different positions in Drawer:  
 <div style="display: flex; justify-content: center;">  
   <img src="image/Drawer_sample.png" style="width: 400px; margin: 0 10px;" alt="Fridge Sample">  
