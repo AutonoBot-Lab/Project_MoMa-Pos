@@ -9,6 +9,15 @@
 
 [Project Page](https://yding25.com/MoMa-Pos/) | [Arxiv](https://arxiv.org/abs/2403.19940)
 
+<p align="center">
+  <img src="image/Fridge_sample.png" width="300">
+<p>
+<p align="center">
+  <img src="image/Drawer_sample.png" width="300">
+<p>
+<p align="center">
+  <img src="image/Table_sample.png" width="300">
+<p>
 ###  Installation
 
 Clone the repository and initialize submodules:
