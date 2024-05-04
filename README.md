@@ -9,15 +9,11 @@
 
 [Project Page](https://yding25.com/MoMa-Pos/) | [Arxiv](https://arxiv.org/abs/2403.19940)
 
-<p align="center">
-  <img src="image/Fridge_sample.png" width="300">
-<p>
-<p align="center">
-  <img src="image/Drawer_sample.png" width="300">
-<p>
-<p align="center">
-  <img src="image/Table_sample.png" width="300">
-<p>
+<div style="display: flex; justify-content: center;">  
+  <img src="image/Fridge_sample.png" style="width: 300px; margin: 0 10px;" alt="Fridge Sample">  
+  <img src="image/Drawer_sample.png" style="width: 300px; margin: 0 10px;" alt="Drawer Sample">  
+  <img src="image/Table_sample.png" style="width: 300px; margin: 0 10px;" alt="Table Sample">  
+</div>
 ###  Installation
 
 Clone the repository and initialize submodules:
