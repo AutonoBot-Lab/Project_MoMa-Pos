@@ -7,9 +7,7 @@
 
 <sup>1</sup> Chongqing University, <sup>2</sup> Binghamton University
 
-Welcome to the official repository for MoMa-Pos. 
-
-You can access the paper [here](https://arxiv.org/abs/2403.19940),  and the project website [here](https://yding25.com/MoMa-Pos/).
+[Project Page](https://yding25.com/MoMa-Pos/)|[Arxiv](https://arxiv.org/abs/2403.19940)
 
 ###  Installation
 
