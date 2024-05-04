@@ -61,13 +61,16 @@ And you can change the position of bowl(element_H2) in
 ```
 utils/utils_Kitchen_v2
 ```
-Then you can see these demos:  
-Bowl in different shelves of the fridge:  
+Then you can see Bowl in different shelves of the fridge:  
 <div style="display: flex; justify-content: center;">  
   <img src="image/Fridge_sample.png" style="width: 400px; margin: 0 10px;" alt="Fridge Sample">  
   <img src="image/Fridge_sample2.png" style="width: 400px; margin: 0 10px;" alt="Drawer Sample">  
 </div>  
-
+Bowl in different positions in Drawer:  
+<div style="display: flex; justify-content: center;">  
+  <img src="image/Drawer_sample.png" style="width: 400px; margin: 0 10px;" alt="Fridge Sample">  
+  <img src="image/Drawer_sample2.png" style="width: 400px; margin: 0 10px;" alt="Drawer Sample">  
+</div> 
 
 ## Attention
 The current code's parameter input is not written succinctly. We will address this by refining the code encapsulation in subsequent updates
