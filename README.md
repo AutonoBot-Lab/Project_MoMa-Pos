@@ -10,9 +10,9 @@
 [Project Page](https://yding25.com/MoMa-Pos/) | [Arxiv](https://arxiv.org/abs/2403.19940)
 
 <div style="display: flex; justify-content: center;">  
-  <img src="image/Fridge_sample.png" style="width: 350px; margin: 0 10px;" alt="Fridge Sample">  
-  <img src="image/Drawer_sample.png" style="width: 350px; margin: 0 10px;" alt="Drawer Sample">  
-  <img src="image/Table_sample.png" style="width: 350px; margin: 0 10px;" alt="Table Sample">  
+  <img src="image/Fridge_sample.png" style="width: 330px; margin: 0 10px;" alt="Fridge Sample">  
+  <img src="image/Drawer_sample.png" style="width: 330px; margin: 0 10px;" alt="Drawer Sample">  
+  <img src="image/Table_sample.png" style="width: 330px; margin: 0 10px;" alt="Table Sample">  
 </div>  
 
 ### Installation
