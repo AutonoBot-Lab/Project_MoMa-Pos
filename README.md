@@ -7,7 +7,7 @@
 
 <sup>1</sup> Chongqing University, <sup>2</sup> Binghamton University
 
-[Project Page](https://yding25.com/MoMa-Pos/)|[Arxiv](https://arxiv.org/abs/2403.19940)
+[Project Page](https://yding25.com/MoMa-Pos/) | [Arxiv](https://arxiv.org/abs/2403.19940)
 
 ###  Installation
 
