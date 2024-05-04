@@ -10,9 +10,9 @@
 [Project Page](https://yding25.com/MoMa-Pos/) | [Arxiv](https://arxiv.org/abs/2403.19940)
 
 <div style="display: flex; justify-content: center;">  
-  <img src="image/Fridge_sample.png" style="width: 330px; margin: 0 10px;" alt="Fridge Sample">  
-  <img src="image/Drawer_sample.png" style="width: 330px; margin: 0 10px;" alt="Drawer Sample">  
-  <img src="image/Table_sample.png" style="width: 330px; margin: 0 10px;" alt="Table Sample">  
+  <img src="image/Fridge_sample.png" style="width: 320px; margin: 0 10px;" alt="Fridge Sample">  
+  <img src="image/Drawer_sample.png" style="width: 320px; margin: 0 10px;" alt="Drawer Sample">  
+  <img src="image/Table_sample.png" style="width: 320px; margin: 0 10px;" alt="Table Sample">  
 </div>  
 
 ### Installation
@@ -62,7 +62,11 @@ And you can change the position of bowl(element_H2) in
 utils/utils_Kitchen_v2
 ```
 Then you can see these demos:  
-Bowl in different shelves of the fridge:
+Bowl in different shelves of the fridge:  
+<div style="display: flex; justify-content: center;">  
+  <img src="image/Fridge_sample.png" style="width: 400px; margin: 0 10px;" alt="Fridge Sample">  
+  <img src="image/Fridge_sample2.png" style="width: 400px; margin: 0 10px;" alt="Drawer Sample">  
+</div>  
 
 
 ## Attention
