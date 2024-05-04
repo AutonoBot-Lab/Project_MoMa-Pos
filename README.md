@@ -4,7 +4,7 @@
 
 ## MoMa-Pos: Where Should Mobile Manipulators Stand in Cluttered Environment Before Task Execution?
 [Beichen Shao<sup>1<sup>](https://github.com/ssspeg), [Yan Ding<sup>2<sup>](https://yding25.com/)   
-<sup>1<sup> Chongqing University, <sup>2<sup> Binghamton University
+<sup>1</sup> Chongqing University, <sup>2</sup> Binghamton University
 
 Welcome to the official repository for MoMa-Pos. 
 
