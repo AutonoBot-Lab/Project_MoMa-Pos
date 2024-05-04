@@ -59,8 +59,11 @@ python3 ./MoMa_Pos/MoMa_main.py
 ```
 And you can change the position of bowl(element_H2) in 
 ```
-utils/utils_Kitchen2
+utils/utils_Kitchen_v2
 ```
-Then you can see these demos:
+Then you can see these demos:  
+Bowl in different shelves of the fridge:
+
+
 ## Attention
 The current code's parameter input is not written succinctly. We will address this by refining the code encapsulation in subsequent updates
