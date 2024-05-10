@@ -18,6 +18,7 @@
   <img src="image/Table_sample.png" style="width: 270px; margin: 0 10px;" alt="Table Sample">  
 </div>  
 
+![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)
 ## 💻 Installation
 
 Clone the repository and initialize submodules:
