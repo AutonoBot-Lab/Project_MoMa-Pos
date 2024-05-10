@@ -77,4 +77,15 @@ Bowl in different positions in Drawer:
 </div> 
 
 ## Attention
-The current code's parameter input is not written succinctly. We will address this by refining the code encapsulation in subsequent updates
+The current code's parameter input is not written succinctly. We will address this by refining the code encapsulation in subsequent updates  
+
+## Reference
+If you find this work useful, please consider citing:  
+```
+@article{shao2024task,
+  title={MoMa-Pos: Where Should Mobile Manipulators Stand in Cluttered Environment Before Task Execution?},
+  author={Shao, Beichen and Ding, Yan and Wang, Xingchen and Xie, Xuefeng and Gu, Fuqiang and Luo, Jun and Chen, Chao},
+  journal={arXiv preprint arXiv:2403.19940},
+  year={2024}
+}
+```
