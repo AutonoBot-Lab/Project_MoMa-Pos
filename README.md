@@ -3,9 +3,10 @@
 </p>
 
 ## MoMa-Pos: Where Should Mobile Manipulators Stand in Cluttered Environment Before Task Execution?
-[Beichen Shao](https://github.com/ssspeg)<sup>1</sup>, [Yan Ding](https://yding25.com/)<sup>2</sup> 
+[Beichen Shao](https://github.com/ssspeg)<sup>1</sup>, [Yan Ding](https://yding25.com/)<sup>2</sup>, Xingchen Wang<sup>1<sup>, Xuefeng Xie<sup>3<sup>, Fuqiang Gu<sup>1<sup>, Jun Luo<sup>4<sup>, [Chao Chen](http://www.cs.cqu.edu.cn/info/1274/3804.htm)<sup>4<sup>  
 
-<sup>1</sup> Chongqing University, <sup>2</sup> Binghamton University
+<sup>1</sup> College of Computer Science,Chongqing University, <sup>2</sup> Binghamton University, <sup>3</sup> School of Management Science and Real Estate, Chongqing University,  <sup>4</sup> State Key Laboratory of Mechanical Transmission for Advanced Equipment, Chongqing University  
+
 
 [Project Page](https://yding25.com/MoMa-Pos/) | [Arxiv](https://arxiv.org/abs/2403.19940)
 
