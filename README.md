@@ -18,7 +18,7 @@
   <img src="image/Table_sample.png" style="width: 270px; margin: 0 10px;" alt="Table Sample">  
 </div>  
 
-### Installation
+### 💻 Installation
 
 Clone the repository and initialize submodules:
 
@@ -54,7 +54,7 @@ pip3 install ompl-1.6.0-cp38-cp38-manylinux_2_28_x86_64.whl
     ├── utils_Potential_R.py
 ```
 
-## Basic Demos
+## 👨‍💻 Basic Demos
 
 Run a basic demo:
 ```
@@ -79,7 +79,7 @@ Bowl in different positions in Drawer:
 ## Attention
 The current code's parameter input is not written succinctly. We will address this by refining the code encapsulation in subsequent updates  
 
-## Reference
+## 🚀 Reference
 If you find this work useful, please consider citing:  
 ```
 @article{shao2024task,
