@@ -2,7 +2,7 @@
   <img src="image/logo.jpg" width="500">
 </p>
 
-## MoMa-Pos: Where Should Mobile Manipulators Stand in Cluttered Environment Before Task Execution?
+## :earth_africa: MoMa-Pos: Where Should Mobile Manipulators Stand in Cluttered Environment Before Task Execution?
 [Beichen Shao](https://github.com/ssspeg)<sup>1</sup>, [Yan Ding](https://yding25.com/)<sup>2</sup>, Xingchen Wang<sup>1</sup>, Xuefeng Xie<sup>3</sup>, Fuqiang Gu<sup>1</sup>, Jun Luo<sup>4</sup>, [Chao Chen](http://www.cs.cqu.edu.cn/info/1274/3804.htm)<sup>4</sup>  
 
 <sup>1</sup> College of Computer Science,Chongqing University, <sup>2</sup> Binghamton University  
@@ -36,7 +36,7 @@ pip3 install pygccxml==2.2.1.
 cd BestMan_Pybullet/package_OMPL
 pip3 install ompl-1.6.0-cp38-cp38-manylinux_2_28_x86_64.whl
 ```
-## Main Project Structure
+## ：books: Main Project Structure
 ```
 ├── Kitchen_models
 ├── MoMa_Pos
@@ -76,7 +76,7 @@ Bowl in different positions in Drawer:
   <img src="image/Drawer_sample2.png" style="width: 400px; margin: 0 10px;" alt="Drawer Sample">  
 </div> 
 
-## Attention
+## :pencil2: Attention
 The current code's parameter input is not written succinctly. We will address this by refining the code encapsulation in subsequent updates  
 
 ## 🚀 Reference
