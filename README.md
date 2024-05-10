@@ -22,7 +22,7 @@
 ## 💻 Installation  
 
 ![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)
-![OMPL 1.6.0](https://img.shields.io/badge/OMPL-1.6.0-blue.svg)
+![OMPL 1.6.0](https://img.shields.io/badge/OMPL-1.6.0-green.svg)
 
 Clone the repository and initialize submodules:
 
