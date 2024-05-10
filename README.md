@@ -18,7 +18,7 @@
   <img src="image/Table_sample.png" style="width: 270px; margin: 0 10px;" alt="Table Sample">  
 </div>  
 
-### 💻 Installation
+## 💻 Installation
 
 Clone the repository and initialize submodules:
 
@@ -36,7 +36,7 @@ pip3 install pygccxml==2.2.1.
 cd BestMan_Pybullet/package_OMPL
 pip3 install ompl-1.6.0-cp38-cp38-manylinux_2_28_x86_64.whl
 ```
-### Main Project Structure
+## Main Project Structure
 ```
 ├── Kitchen_models
 ├── MoMa_Pos
