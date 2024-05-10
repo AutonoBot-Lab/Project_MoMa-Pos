@@ -18,8 +18,11 @@
   <img src="image/Table_sample.png" style="width: 270px; margin: 0 10px;" alt="Table Sample">  
 </div>  
 
+
+## 💻 Installation  
+
 ![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)
-## 💻 Installation
+![OMPL 1.6.0](https://img.shields.io/badge/OMPL-1.6.0-blue.svg)
 
 Clone the repository and initialize submodules:
 
