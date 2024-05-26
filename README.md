@@ -37,7 +37,7 @@ Install the OMPL package:
 
 ```
 pip3 install pygccxml==2.2.1.
-cd BestMan_Pybullet/package_OMPL
+cd Project_MoMa-Pos/package_OMPL
 pip3 install ompl-1.6.0-cp38-cp38-manylinux_2_28_x86_64.whl
 ```
 ## :books: Main Project Structure
