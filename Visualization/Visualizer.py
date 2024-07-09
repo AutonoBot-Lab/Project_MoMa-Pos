@@ -466,8 +466,31 @@ class Visualizer:
                 lineWidth=2,
                 physicsClientId=self.client_id,
             )
+    # ----------------------------------------------------------------
+    # 刻画joint的box
+    # ----------------------------------------------------------------
+    def draw_aabb_range(self, object_id, link_id=-1):
+        """
+        Draw an Axis-Aligned Bounding Box (AABB) around the specified object or link in the simulation. The AABB is a box that covers the entire object based on its maximum and minimum coordinates along each axis. It can be useful for various purposes, such as collision detection, spatial partitioning, and bounding volume hierarchies.
 
-
+        Args:
+            object_id: The unique identifier of the object in the simulation for which the AABB is to be drawn.
+            link_id: The index of the link for which the AABB is to be drawn. Default is -1, which means the entire object.
+        """
+        aabb = p.getAABB(object_id, link_id, physicsClientId=self.client_id)
+        aabb_min = aabb[0]
+        aabb_max = aabb[1]
+        corners = [
+            [aabb_min[0], aabb_min[1], aabb_min[2]],  # 0
+            [aabb_max[0], aabb_min[1], aabb_min[2]],  # 1
+            [aabb_max[0], aabb_max[1], aabb_min[2]],  # 2
+            [aabb_min[0], aabb_max[1], aabb_min[2]],  # 3
+            [aabb_min[0], aabb_min[1], aabb_max[2]],  # 4
+            [aabb_max[0], aabb_min[1], aabb_max[2]],  # 5
+            [aabb_max[0], aabb_max[1], aabb_max[2]],  # 6
+            [aabb_min[0], aabb_max[1], aabb_max[2]],  # 7
+        ]
+        return corners
     # ----------------------------------------------------------------
     # change color
     # ----------------------------------------------------------------

@@ -3,9 +3,14 @@
 @Author      :   Yan Ding 
 @Time        :   2023/08/31 03:01:50
 """
-
+import sys
 import os 
 import math
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# 获取项目的根目录（假设 RoboticsToolBox 与 Examples 同级）
+project_root = os.path.dirname(current_dir)
+# 将项目根目录添加到 sys.path
+sys.path.append(project_root)
 from RoboticsToolBox import Bestman, Pose
 from Env import Client
 from Visualization import Visualizer
@@ -14,7 +19,7 @@ from Utils import load_config
 
 def main():
     
-    # Load config
+    # Load config 这个yaml里面有摄像头的相关设定以及机器人的初始关节
     config_path = '../Config/grasp_bowl_on_table.yaml'
     cfg = load_config(config_path)
     print(cfg)

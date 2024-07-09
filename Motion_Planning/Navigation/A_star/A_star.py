@@ -19,6 +19,14 @@ class AStarPlanner:
         self.x_max = x_max
         self.y_max = y_max
         self.enable_plot = enable_plot
+    def convert_to_bounds(self):
+        bounds = []
+        for rect in self.obstacles_bounds:
+            rect = np.array(rect)
+            xmin, ymin = np.min(rect, axis=0)
+            xmax, ymax = np.max(rect, axis=0)
+            bounds.append([xmin, ymin, xmax, ymax])
+        return bounds
     
     # use A* algorithm to find a Manhattan path
     def plan(
@@ -48,7 +56,7 @@ class AStarPlanner:
         # only care about x, y
         self.start_position = start_pose.position[0:2]
         self.goal_position = goal_pose.position[0:2]
-        
+        self.obstacles_bounds = self.convert_to_bounds()
         self.area = AreaBounds(self.start_position, self.goal_position, self.obstacles_bounds)
         
         # grid to world coords

@@ -6,6 +6,12 @@
 
 import os
 import math
+import sys
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# 获取项目的根目录（假设 RoboticsToolBox 与 Examples 同级）
+project_root = os.path.dirname(current_dir)
+# 将项目根目录添加到 sys.path
+sys.path.append(project_root)
 from RoboticsToolBox import Bestman, Pose
 from Env import Client
 from Visualization import Visualizer

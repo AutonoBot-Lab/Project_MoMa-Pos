@@ -287,7 +287,7 @@ class OMPL_Planner:
                             attempts, distance
                         )
                     )
-                    
+                    return True, path
                     break
 
         if attempts >= self.max_attempts:
@@ -295,4 +295,5 @@ class OMPL_Planner:
                 "Could not reach target position without collision after {} attempts".format(
                     self.max_attempts
                 )
-            )  
+            )
+        return False, None
