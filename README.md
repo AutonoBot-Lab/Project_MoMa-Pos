@@ -2,7 +2,7 @@
   <img src="image/logo.jpg" width="500">
 </p>
 
-## :earth_africa: MoMa-Pos: Where Should Mobile Manipulators Stand in Cluttered Environment Before Task Execution?
+## :earth_africa:  MoMa-Pos: An Efficient Object-Kinematic-Aware Base Placement Optimization Framework for Mobile Manipulation
 [Beichen Shao](https://github.com/ssspeg)<sup>1</sup>, [Yan Ding](https://yding25.com/)<sup>2</sup>, Xingchen Wang<sup>1</sup>, Xuefeng Xie<sup>3</sup>, Fuqiang Gu<sup>1</sup>, Jun Luo<sup>4</sup>, [Chao Chen](http://www.cs.cqu.edu.cn/info/1274/3804.htm)<sup>4</sup>  
 
 <sup>1</sup> College of Computer Science,Chongqing University, <sup>2</sup> Binghamton University  
@@ -87,7 +87,7 @@ The current code's parameter input is not written succinctly. We will address th
 If you find this work useful, please consider citing:  
 ```
 @article{shao2024task,
-  title={MoMa-Pos: Where Should Mobile Manipulators Stand in Cluttered Environment Before Task Execution?},
+  title={ MoMa-Pos: An Efficient Object-Kinematic-Aware Base Placement Optimization Framework for Mobile Manipulation},
   author={Shao, Beichen and Ding, Yan and Wang, Xingchen and Xie, Xuefeng and Gu, Fuqiang and Luo, Jun and Chen, Chao},
   journal={arXiv preprint arXiv:2403.19940},
   year={2024}
